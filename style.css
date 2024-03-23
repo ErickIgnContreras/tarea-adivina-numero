@@ -1,0 +1,49 @@
+
+body{
+    margin:   auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background-image: url("./photo-1469980098053-382eb10ba017.avif");
+}
+#titulo {
+    text-align: center;
+    color: #f5f3f3;
+}
+/* Centrar */
+
+.buttonContainer{
+    margin:  0 auto;
+    width: 250px;
+    display: inline-flex;
+}
+button{
+    margin: 0;
+    padding: 0;
+    width: 8rem;
+    height: 5rem;
+    flex: 10%;
+    overflow-wrap: break-word;
+}
+#outputNumber{
+    
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    display: center ;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+#randomNumber{
+    margin-left: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8lh;
+  
+    color: #ffff ;
+    text-align: center;
+ 
+}
